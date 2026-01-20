@@ -1,0 +1,39 @@
+@use "../utilities/variables";
+
+@use "../utilities/mixins";
+
+@include mixins.mobile {
+    .carousel-galeria img {
+        height: 300px;
+    }
+}
+
+@include mixins.tablet {
+    .carousel-galeria img {
+        height: 450px;
+    }
+}
+.carousel-galeria {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 40px auto;
+}
+
+.carousel-galeria .carousel-inner {
+    width: 100%;
+}
+
+.carousel-galeria img {
+    width: 100%;
+    height: 550px; 
+    object-fit: contain; 
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+} 
+

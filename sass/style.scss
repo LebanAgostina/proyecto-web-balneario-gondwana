@@ -1,0 +1,21 @@
+@use "utilities/variables";
+@use "utilities/mixins";
+
+@use "layout/header";
+@use "layout/sections";
+@use "layout/footer";
+
+@use "base/reset";
+@use "base/typography";
+
+@use "components/botones";
+@use "components/navbar";
+
+@use "pages/index";
+@use "pages/services";
+@use "pages/contacto";
+@use "pages/sobrenosotros";
+@use "pages/galeriadeimagenes";
+
+
+

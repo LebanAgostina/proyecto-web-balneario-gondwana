@@ -1,0 +1,13 @@
+@use "../utilities/mixins";
+
+@include mixins.mobile {
+    .contacto-section h1 {
+        font-size: 40px;
+    }
+}
+
+@include mixins.tablet {
+    .contacto-section p {
+        font-size: 16px;
+    }
+}

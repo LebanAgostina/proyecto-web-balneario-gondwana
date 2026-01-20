@@ -1,0 +1,26 @@
+@use "../utilities/variables";
+
+.footer {
+  background: linear-gradient(180deg, #2d7a2d 0%, #1fa6a0 100%);
+  color: white;
+  padding: 30px 20px 10px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.footer-copy {
+  font-size: 12px;
+}

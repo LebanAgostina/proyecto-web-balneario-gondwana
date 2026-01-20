@@ -1,0 +1,6 @@
+@use "../utilities/variables";
+body {
+    font-family: variables.$font-base;
+    display: flex;
+    flex-direction: column;
+}

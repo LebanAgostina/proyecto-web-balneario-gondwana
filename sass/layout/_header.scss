@@ -1,0 +1,60 @@
+
+@use "../utilities/mixins";
+
+@include mixins.mobile {
+    .bienvenida h1 { 
+        font-size: 60px; 
+    }
+    .bienvenida h2 { 
+        font-size: 20px; padding: 0 10px; 
+    }
+}
+
+@include mixins.tablet {
+    .bienvenida h1 {
+        font-size: 90px;
+    }
+    .bienvenida h2 {
+        font-size: 28px;
+    }
+}
+
+.bienvenida {
+    background-image: url(../img/amanecer.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bienvenida h1 {
+    font-size: 150px;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    font-family: "Yesteryear", cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bienvenida h2 {
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+
+.bienvenida a {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(255, 128, 37);
+    padding: 15px 25px;
+    border-radius: 35px;
+    color: #fff;
+}
+

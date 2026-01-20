@@ -1,0 +1,28 @@
+@use "../utilities/variables";
+
+.navbar {
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.nav-link {
+    color: rgb(6, 153, 133);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    &:hover {
+        color: rgb(4, 120, 104);
+    }
+}
+
+.navbar .nav-link:hover {
+    color: rgb(4, 120, 104);
+}
+
+.navbar-toggler {
+    border: none;
+}
